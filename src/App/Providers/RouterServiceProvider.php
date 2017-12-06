@@ -9,6 +9,6 @@ class RouterServiceProvider implements ServiceProviderInterface
 {
     public function register(Container $app)
     {
-        $app->get('/', 'default:index');
+        $app->get('/', 'withdraw:index');
     }
 }
